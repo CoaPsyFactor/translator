@@ -1,0 +1,21 @@
+{
+    "name": "coapsyfactor/translator",
+    "description": "Simple and easy to use translation library",
+    "type": "library",
+    "require": {
+        "php": ">=7.2"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Aleksandar Zivanovic",
+            "email": "coapsyfactor@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Translate\\": "./src/"
+        }
+    }
+}
